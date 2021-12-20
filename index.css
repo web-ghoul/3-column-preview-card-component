@@ -107,13 +107,6 @@ body {
     transition: .3s;
 }
 
-.container .content button:hover {
-    cursor: pointer;
-    background-color: transparent;
-    transition: 0.3s;
-    color: #fff;
-}
-
 .container .content:first-child button {
     color: hsl(31, 77%, 52%);
 }
@@ -124,4 +117,10 @@ body {
 
 .container .content:last-child button {
     color: hsl(179, 100%, 13%);
+}
+.container .content button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.3s;
+    color: #fff;
 }
