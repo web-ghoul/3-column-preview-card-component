@@ -24,17 +24,16 @@ body {
     align-items: center;
     padding-right: 100px;
     padding-left: 100px;
-    box-shadow: 5px 5px 10px 10px #eee;
     background: #fff;
 }
 
 .container .content {
-    padding: 40px;
+    padding: 50px;
     display: grid;
     justify-content: flex-start;
     align-content: space-around;
-    gap: 70px;
-    width: 250px;
+    gap: 100px;
+    width: 300px;
 }
 
 .container .content:first-child {
@@ -75,10 +74,10 @@ body {
 }
 
 .content div p {
-    font-size: 12px;
+    font-size: 15px;
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca', sans-serif;
-    width: 95%;
+    width: 100%;
     padding: 0;
     line-height: 1.7;
     margin: 0;
@@ -97,13 +96,12 @@ body {
 .container .content button {
     outline: none;
     border: 2px solid #fff;
-    padding: 10px 35px;
+    padding: 12px 30px;
     border-radius: 30px;
     font-size: 15px;
-    font-weight: 800;
     width: fit-content;
     background-color: #fff;
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
     transition: .3s;
 }
 
@@ -118,6 +116,7 @@ body {
 .container .content:last-child button {
     color: hsl(179, 100%, 13%);
 }
+
 .container .content button:hover {
     cursor: pointer;
     background-color: transparent;
